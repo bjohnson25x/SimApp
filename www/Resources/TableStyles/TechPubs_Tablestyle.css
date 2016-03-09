@@ -1,0 +1,3886 @@
+/*<meta Version="9" />*/
+
+/* MadCap Table Style: */
+
+@media non-print
+{
+	mcTableStyle
+	{
+		cell-padding-left: 4px;
+		cell-padding-right: 4px;
+		cell-padding-top: 0px;
+		cell-padding-bottom: 0px;
+	}
+
+	mcTableColumnStyle
+	{
+		font-size: 10pt;
+		font-family: Verdana;
+	}
+
+	mcTableHeadStyle
+	{
+		font-size: 11pt;
+		color: #ffffff;
+		font-weight: bold;
+		font-family: Verdana;
+		cell-padding-top: 4px;
+		cell-padding-bottom: 4px;
+		text-align: center;
+	}
+
+	mcTableHeadStyle
+	{
+		font-size: 10pt;
+		font-family: Verdana;
+		color: #000000;
+		font-weight: bold;
+		cell-padding-top: 4px;
+		cell-padding-bottom: 4px;
+		text-align: center;
+	}
+
+	mcTableBodyStyle
+	{
+		font-size: 10pt;
+		font-family: Verdana;
+	}
+
+	mcTableBodyStyle
+	{
+		font-size: 10pt;
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+	}
+
+	mcTableFootStyle
+	{
+		font-family: Verdana;
+	}
+}
+
+@media print
+{
+	mcTableStyle
+	{
+		cell-padding-left: 2px;
+		cell-padding-right: 2px;
+		cell-padding-top: 1px;
+		cell-padding-bottom: 1px;
+	}
+
+	mcTableColumnStyle
+	{
+		cell-padding-left: 2px;
+		cell-padding-right: 2px;
+		cell-padding-top: 1px;
+		cell-padding-bottom: 1px;
+		font-family: Arial;
+	}
+
+	mcTableHeadStyle
+	{
+		font-size: 11pt;
+		color: #ffffff;
+		font-weight: bold;
+		cell-padding-top: 2px;
+		font-family: Arial;
+		cell-padding-left: 2px;
+		cell-padding-right: 2px;
+		cell-padding-bottom: 2px;
+	}
+
+	mcTableHeadStyle
+	{
+		font-size: 10pt;
+		color: #000000;
+		font-weight: bold;
+		cell-padding-left: 2px;
+		cell-padding-right: 2px;
+		cell-padding-top: 2px;
+		cell-padding-bottom: 2px;
+		font-family: Arial;
+	}
+
+	mcTableBodyStyle
+	{
+		font-size: 10pt;
+		cell-padding-left: 2px;
+		cell-padding-right: 2px;
+		cell-padding-top: 1px;
+		cell-padding-bottom: 1px;
+		font-family: Arial;
+	}
+
+	mcTableBodyStyle
+	{
+		cell-padding-left: 2px;
+		cell-padding-right: 2px;
+		cell-padding-top: 2px;
+		cell-padding-bottom: 2px;
+		font-size: 10pt;
+		color: #000000;
+		font-weight: bold;
+		font-family: Arial;
+	}
+
+	mcTableFootStyle
+	{
+		font-size: 8pt;
+		cell-padding-left: 2px;
+		cell-padding-right: 2px;
+		cell-padding-top: 2px;
+		cell-padding-bottom: 2px;
+		font-family: Arial;
+	}
+}
+
+mcTableStyle
+{
+	name: TechPubs_Tablestyle;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	max-id: 8;
+	cell-padding-left: 2px;
+	cell-padding-right: 2px;
+	cell-padding-top: 0px;
+	cell-padding-bottom: 2px;
+	mc-hyphenate: never;
+	margin: auto;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Column1;
+	id: 0;
+	mc-hyphenate: never;
+	font-family: Verdana;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Header1;
+	id: 2;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #738cbf;
+	mc-hyphenate: never;
+	font-family: Verdana;
+	text-align: center;
+	vertical-align: middle;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	id: 4;
+	name: Header2;
+	font-size: 10pt;
+	color: #000000;
+	font-weight: bold;
+	background-color: #deedfc;
+	vertical-align: middle;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	mc-hyphenate: never;
+	text-align: center;
+	font-family: Verdana;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Body1;
+	id: 1;
+	font-size: 10pt;
+	background-color: #ffffff;
+	vertical-align: top;
+	mc-hyphenate: never;
+	font-family: Verdana;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	id: 7;
+	name: Subheading;
+	type: Manual;
+	background-color: #deedfc;
+	color: #000000;
+	font-weight: bold;
+	font-size: 10pt;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	mc-hyphenate: never;
+	page-break-after: avoid;
+	font-family: Verdana;
+	text-align: center;
+	vertical-align: middle;
+}
+
+mcTableFootStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Footer1;
+	id: 3;
+	mc-hyphenate: never;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+/* Cell Styles: */
+
+@media non-print
+{
+	.TableStyle-TechPubs_Tablestyle
+	{
+		border-spacing: 0px 0px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Verdana;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header2
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header2
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header2
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header2
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header2
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header2
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header2
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header2
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header2
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Verdana;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootI-Column1-Footer1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootI-Column1-Footer1 p
+	{
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootE-Column1-Footer1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootE-Column1-Footer1 p
+	{
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootF-Column1-Footer1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootF-Column1-Footer1 p
+	{
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootH-Column1-Footer1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootH-Column1-Footer1 p
+	{
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootD-Column1-Footer1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootD-Column1-Footer1 p
+	{
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootC-Column1-Footer1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootC-Column1-Footer1 p
+	{
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootB-Column1-Footer1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootB-Column1-Footer1 p
+	{
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootA-Column1-Footer1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootA-Column1-Footer1 p
+	{
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootG-Column1-Footer1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootG-Column1-Footer1 p
+	{
+		font-family: Verdana;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Body1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Body1 p
+	{
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Body1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Body1 p
+	{
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Body1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Body1 p
+	{
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Body1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Body1 p
+	{
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Body1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Body1 p
+	{
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Body1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Body1 p
+	{
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Body1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Body1 p
+	{
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Body1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Body1 p
+	{
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Body1
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Body1 p
+	{
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Subheading
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Subheading p
+	{
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Subheading
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Subheading p
+	{
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Subheading
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Subheading p
+	{
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Subheading
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Subheading p
+	{
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Subheading
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Subheading p
+	{
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Subheading
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Subheading p
+	{
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Subheading
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Subheading p
+	{
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Subheading
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Subheading p
+	{
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Subheading
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Subheading p
+	{
+		color: #000000;
+		font-weight: bold;
+		font-family: Verdana;
+		font-size: 10pt;
+	}
+}
+
+@media print
+{
+	.TableStyle-TechPubs_Tablestyle
+	{
+		border-spacing: 0px 0px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 11pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header2
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header2
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header2
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header2
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header2
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header2
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header2
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header2
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header2
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header2 p
+	{
+		color: #000000;
+		font-family: Arial;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootI-Column1-Footer1
+	{
+		font-family: Arial;
+		font-size: 8pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootI-Column1-Footer1 p
+	{
+		font-family: Arial;
+		font-size: 8pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootE-Column1-Footer1
+	{
+		font-family: Arial;
+		font-size: 8pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootE-Column1-Footer1 p
+	{
+		font-family: Arial;
+		font-size: 8pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootF-Column1-Footer1
+	{
+		font-family: Arial;
+		font-size: 8pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootF-Column1-Footer1 p
+	{
+		font-family: Arial;
+		font-size: 8pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootH-Column1-Footer1
+	{
+		font-family: Arial;
+		font-size: 8pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootH-Column1-Footer1 p
+	{
+		font-family: Arial;
+		font-size: 8pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootD-Column1-Footer1
+	{
+		font-family: Arial;
+		font-size: 8pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootD-Column1-Footer1 p
+	{
+		font-family: Arial;
+		font-size: 8pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootC-Column1-Footer1
+	{
+		font-family: Arial;
+		font-size: 8pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootC-Column1-Footer1 p
+	{
+		font-family: Arial;
+		font-size: 8pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootB-Column1-Footer1
+	{
+		font-family: Arial;
+		font-size: 8pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootB-Column1-Footer1 p
+	{
+		font-family: Arial;
+		font-size: 8pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootA-Column1-Footer1
+	{
+		font-family: Arial;
+		font-size: 8pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootA-Column1-Footer1 p
+	{
+		font-family: Arial;
+		font-size: 8pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootG-Column1-Footer1
+	{
+		font-family: Arial;
+		font-size: 8pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-FootG-Column1-Footer1 p
+	{
+		font-family: Arial;
+		font-size: 8pt;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Body1
+	{
+		font-size: 10pt;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Body1 p
+	{
+		font-size: 10pt;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Body1
+	{
+		font-size: 10pt;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Body1 p
+	{
+		font-size: 10pt;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Body1
+	{
+		font-size: 10pt;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Body1 p
+	{
+		font-size: 10pt;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Body1
+	{
+		font-size: 10pt;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Body1 p
+	{
+		font-size: 10pt;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Body1
+	{
+		font-size: 10pt;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Body1 p
+	{
+		font-size: 10pt;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Body1
+	{
+		font-size: 10pt;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Body1 p
+	{
+		font-size: 10pt;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Body1
+	{
+		font-size: 10pt;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Body1 p
+	{
+		font-size: 10pt;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Body1
+	{
+		font-size: 10pt;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Body1 p
+	{
+		font-size: 10pt;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Body1
+	{
+		font-size: 10pt;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Body1 p
+	{
+		font-size: 10pt;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Subheading
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Subheading p
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Subheading
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Subheading p
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Subheading
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Subheading p
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Subheading
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Subheading p
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Subheading
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Subheading p
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Subheading
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Subheading p
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Subheading
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Subheading p
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Subheading
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Subheading p
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Subheading
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Subheading p
+	{
+		color: #000000;
+		font-size: 10pt;
+		font-weight: bold;
+		font-family: Arial;
+	}
+}
+
+.TableStyle-TechPubs_Tablestyle
+{
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-TechPubs_Tablestyle-Column-Column1
+{
+	
+}
+
+.TableStyle-TechPubs_Tablestyle-Head-Header1
+{
+	
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #738cbf;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #738cbf;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #738cbf;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #738cbf;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #738cbf;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #738cbf;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #738cbf;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #738cbf;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #738cbf;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-Head-Header2
+{
+	
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header2
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header2
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header2
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header2
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header2
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header2
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header2
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header2
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header2
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-Foot-Footer1
+{
+	
+}
+
+.TableStyle-TechPubs_Tablestyle-FootI-Column1-Footer1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootI-Column1-Footer1 p
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootE-Column1-Footer1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	font-family: Verdana;
+	font-size: 8pt;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootE-Column1-Footer1 p
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootF-Column1-Footer1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-family: Verdana;
+	font-size: 8pt;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootF-Column1-Footer1 p
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootH-Column1-Footer1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootH-Column1-Footer1 p
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootD-Column1-Footer1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-family: Verdana;
+	font-size: 8pt;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootD-Column1-Footer1 p
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootC-Column1-Footer1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootC-Column1-Footer1 p
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootB-Column1-Footer1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootB-Column1-Footer1 p
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootA-Column1-Footer1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootA-Column1-Footer1 p
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootG-Column1-Footer1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootG-Column1-Footer1 p
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-Body-Body1
+{
+	
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Body1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-size: 10pt;
+	vertical-align: top;
+	background-color: #ffffff;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Body1 p
+{
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Body1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-size: 10pt;
+	vertical-align: top;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-family: Verdana;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Body1 p
+{
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Body1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-size: 10pt;
+	vertical-align: top;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Body1 p
+{
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Body1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-size: 10pt;
+	vertical-align: top;
+	background-color: #ffffff;
+	font-family: Verdana;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Body1 p
+{
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Body1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-size: 10pt;
+	vertical-align: top;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Body1 p
+{
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Body1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-size: 10pt;
+	vertical-align: top;
+	background-color: #ffffff;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Body1 p
+{
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Body1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-size: 10pt;
+	vertical-align: top;
+	background-color: #ffffff;
+	font-family: Verdana;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Body1 p
+{
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Body1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-size: 10pt;
+	vertical-align: top;
+	background-color: #ffffff;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Body1 p
+{
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Body1
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-size: 10pt;
+	vertical-align: top;
+	background-color: #ffffff;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Body1 p
+{
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-Body-Subheading
+{
+	page-break-after: avoid;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Subheading
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Subheading p
+{
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Subheading
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-family: Verdana;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Subheading p
+{
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Subheading
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Subheading p
+{
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Subheading
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	font-family: Verdana;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Subheading p
+{
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Subheading
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Subheading p
+{
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Subheading
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Subheading p
+{
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Subheading
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	font-family: Verdana;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Subheading p
+{
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Subheading
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Subheading p
+{
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Subheading
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #deedfc;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Subheading p
+{
+	color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+mcTableStyle
+{
+	cell-padding-left: 4px;
+	cell-padding-right: 4px;
+	cell-padding-top: 0px;
+	cell-padding-bottom: 0px;
+}
+
+mcTableColumnStyle
+{
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+mcTableHeadStyle
+{
+	font-size: 11pt;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Verdana;
+	cell-padding-top: 4px;
+	cell-padding-bottom: 4px;
+	text-align: center;
+}
+
+mcTableHeadStyle
+{
+	font-size: 10pt;
+	font-family: Verdana;
+	color: #000000;
+	font-weight: bold;
+	cell-padding-top: 4px;
+	cell-padding-bottom: 4px;
+	text-align: center;
+}
+
+mcTableBodyStyle
+{
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+mcTableBodyStyle
+{
+	font-size: 10pt;
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+mcTableFootStyle
+{
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle
+{
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header2
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadI-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header2
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadE-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header2
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadF-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header2
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadH-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header2
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadD-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header2
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadC-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header2
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadB-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header2
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadA-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header2
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.TableStyle-TechPubs_Tablestyle-HeadG-Column1-Header2 p
+{
+	color: #000000;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootI-Column1-Footer1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootI-Column1-Footer1 p
+{
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootE-Column1-Footer1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootE-Column1-Footer1 p
+{
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootF-Column1-Footer1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootF-Column1-Footer1 p
+{
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootH-Column1-Footer1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootH-Column1-Footer1 p
+{
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootD-Column1-Footer1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootD-Column1-Footer1 p
+{
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootC-Column1-Footer1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootC-Column1-Footer1 p
+{
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootB-Column1-Footer1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootB-Column1-Footer1 p
+{
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootA-Column1-Footer1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootA-Column1-Footer1 p
+{
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootG-Column1-Footer1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-FootG-Column1-Footer1 p
+{
+	font-family: Verdana;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Body1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Body1 p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Body1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Body1 p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Body1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Body1 p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Body1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Body1 p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Body1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Body1 p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Body1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Body1 p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Body1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Body1 p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Body1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Body1 p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Body1
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Body1 p
+{
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Subheading
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyI-Column1-Subheading p
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Subheading
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyE-Column1-Subheading p
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Subheading
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyF-Column1-Subheading p
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Subheading
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyH-Column1-Subheading p
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Subheading
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyD-Column1-Subheading p
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Subheading
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyC-Column1-Subheading p
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Subheading
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyB-Column1-Subheading p
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Subheading
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyA-Column1-Subheading p
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Subheading
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.TableStyle-TechPubs_Tablestyle-BodyG-Column1-Subheading p
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+

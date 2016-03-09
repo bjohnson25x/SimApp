@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../Topics/Simulator/10366 ROV Simulator Introduction.htm'],s:['1'],p:[['1',0]]});

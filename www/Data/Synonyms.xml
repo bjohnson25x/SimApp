@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms>
+    <Groups>
+        <SynonymGroup>
+            <Word>loctite</Word>
+            <Word>locktite</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>yoke</Word>
+            <Word>knuckle</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="uhd-iii">UHD-III</Word>
+            <Word Stem="uhdiii">UHDIII</Word>
+            <Word Stem="uhd3">UHD3</Word>
+            <Word Stem="uhd-3">UHD-3</Word>
+            <Word Stem="sle">SLE</Word>
+            <Word Stem="gen3">Gen3</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="attiitud">attiitude</Word>
+            <Word Stem="pitch">pitch</Word>
+            <Word Stem="roll">roll</Word>
+            <Word Stem="trim">trim</Word>
+            <Word Stem="heav">heave</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="aux">AUX</Word>
+            <Word Stem="aux">Aux</Word>
+            <Word Stem="aux">aux</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="gui">GUI</Word>
+            <Word Stem="hmi">HMI</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="pca">PCA</Word>
+            <Word Stem="pcb">PCB</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="tether">tether</Word>
+            <Word Stem="umbil">umbilical</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="drop-down">drop-down</Word>
+            <Word Stem="dropdown">dropdown</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="feed-through">feed-through</Word>
+            <Word Stem="feedthrough">feedthrough</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="ft-lb">ft-lb</Word>
+            <Word Stem="lb-ft">lb-ft</Word>
+            <Word Stem="ft-lb">ft-lbs</Word>
+            <Word Stem="lbf">lbf</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="in-lb">in-lb</Word>
+            <Word Stem="lb-in">lb-in</Word>
+            <Word Stem="in-lb">in-lbs</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="lb">lb</Word>
+            <Word Stem="lb">lbs</Word>
+            <Word Stem="lb.-lbs.">lb.-lbs.</Word>
+            <Word Stem="pound">pound</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="nylock">nylock</Word>
+            <Word Stem="nyloc">nyloc</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="seab">seabed</Word>
+            <Word Stem="seafloor">seafloor</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="t-bar">T-bar</Word>
+            <Word Stem="tbar">Tbar</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="t-box-tbox">T-box-Tbox</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="manifold">manifold</Word>
+            <Word Stem="valvepack">valvepack</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="annot">annotation</Word>
+            <Word Stem="annot">annotate</Word>
+            <Word Stem="overlai">overlay</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="attitud">attitude</Word>
+            <Word Stem="pitch">pitch</Word>
+            <Word Stem="roll">roll</Word>
+            <Word Stem="trim">trim</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="aux">aux</Word>
+            <Word Stem="auxillari">auxillary</Word>
+            <Word Stem="main">main</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="clevi">clevis</Word>
+            <Word Stem="yoke">yoke</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="hz">Hz</Word>
+            <Word Stem="hertz">hertz</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="imr">IMR</Word>
+            <Word Stem="irm">IRM</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="kg">Kg</Word>
+            <Word Stem="kilogram">kilogram</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="ko">ko</Word>
+            <Word Stem="kilohm">kilohm</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="kv">kV</Word>
+            <Word Stem="kilovolt">Kilovolts</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="kw">kW</Word>
+            <Word Stem="kilowatt">Kilowatt</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="iso">ISO</Word>
+            <Word Stem="isol">isolation</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="lockout">lockout</Word>
+            <Word Stem="lock-out">lock-out</Word>
+            <Word Stem="tagout">tagout</Word>
+            <Word Stem="tag-out">tag-out</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="m-g">M-G</Word>
+            <Word Stem="dynamotor">dynamotor</Word>
+            <Word Stem="dynamo-motor">dynamo-motor</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="mwsk">MWSK</Word>
+            <Word Stem="stationkeep">StationKeep</Word>
+            <Word Stem="sk">SK</Word>
+            <Word Stem="stationkeep">stationkeep</Word>
+            <Word Stem="station-keep">station-keep</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="nm">Nm</Word>
+            <Word Stem="n-m">N-m</Word>
+            <Word Stem="newton">Newton</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="nonproport">nonproportional</Word>
+            <Word Stem="proport">proportional</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="ntsc">NTSC</Word>
+            <Word Stem="pal">PAL</Word>
+            <Word Stem="secam">SECAM</Word>
+            <Word Stem="tv">TV</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="pan">pan</Word>
+            <Word Stem="tilt">tilt</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="payin">payin</Word>
+            <Word Stem="pay-in">pay-in</Word>
+            <Word Stem="wind">wind</Word>
+            <Word Stem="payout">payout</Word>
+            <Word Stem="pay-out">pay-out</Word>
+            <Word Stem="unwind">unwinding</Word>
+            <Word Stem="render">render</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="pca">pca</Word>
+            <Word Stem="pcb">pcb</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="pinchwheel">pinchwheel</Word>
+            <Word Stem="pinch-wheel">pinch-wheel</Word>
+            <Word Stem="levelwind">levelwind</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="port">port</Word>
+            <Word Stem="left">left</Word>
+            <Word Stem="starboard">starboard</Word>
+            <Word Stem="right">right</Word>
+            <Word Stem="stbd">STBD</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="rov">ROV</Word>
+            <Word Stem="vessel">vessel</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="uv">UV</Word>
+            <Word Stem="under-voltag">under-voltage</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="j-box">J-box</Word>
+            <Word Stem="jbox">Jbox</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="spec">specs</Word>
+            <Word Stem="spec">spec</Word>
+            <Word Stem="specif">specification</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="mobe">mobe</Word>
+            <Word Stem="mob">mob</Word>
+            <Word Stem="mobil">mobilization</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="comp">comps</Word>
+            <Word Stem="compens">compensator</Word>
+            <Word Stem="compens">compensators</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="8f">8F</Word>
+            <Word Stem="8-st">8-ST</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="12f">12F</Word>
+            <Word Stem="12-st">12-ST</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="8-function">8-function</Word>
+            <Word Stem="8-station">8-station</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="12-function">12-function</Word>
+            <Word Stem="12-station">12-station</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="3f">3F</Word>
+            <Word Stem="3-st">3-ST</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="3-function">3-function</Word>
+            <Word Stem="3-station">3-station</Word>
+        </SynonymGroup>
+    </Groups>
+    <Directional>
+        <DirectionalSynonym Stem="true" From="UHDIII" To="uhd-iii" FromStem="uhdiii" />
+        <DirectionalSynonym Stem="true" From="UHD3" To="uhd-iii" FromStem="uhd3" />
+        <DirectionalSynonym Stem="true" From="UHD-3" To="uhd-iii" FromStem="uhd-3" />
+        <DirectionalSynonym Stem="true" From="main" To="aux" FromStem="main" />
+        <DirectionalSynonym Stem="true" From="G.P.M." To="gpm" FromStem="g.p.m." />
+        <DirectionalSynonym Stem="true" From="headsup" To="hud" FromStem="headsup" />
+        <DirectionalSynonym Stem="true" From="L.P.M." To="lpm" FromStem="l.p.m." />
+        <DirectionalSynonym Stem="true" From="N-m" To="nm" FromStem="n-m" />
+        <DirectionalSynonym Stem="true" From="isolate" To="isol-8" FromStem="isol" />
+        <DirectionalSynonym Stem="true" From="JBox" To="j-box" FromStem="jbox" />
+    </Directional>
+</MadCapSynonyms>

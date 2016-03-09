@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebHelpSystem DefaultUrl="Topics/Simulator/10366 ROV Simulator Introduction.htm" Toc="Data/Toc.js" Index="Data/Index.js" Concepts="Data/Concepts.js" BrowseSequence="Data/BrowseSequence.js" Glossary="Data/Glossary.js" SearchDatabase="Data/Search.js" Alias="Data/Alias.xml" Synonyms="Data/Synonyms.xml" SearchFilterSet="Data/Filters.js" SkinName="FMC-Schilling_HTML5_Online" Skins="FMC - Schilling HD&#160;Online,FMC - Schilling HD&#160;Online_ST,FMC-Schilling_HTML5_Online,HTML5,dark,rendered,rendered_from_Scott,TEST FMC - Schilling HD&#160;Online,white" BuildTime="3/9/2016 1:41:37 PM" BuildVersion="11.1.2.31113" TargetType="WebHelp2" SkinTemplateFolder="Skin/" InPreviewMode="false" MoveOutputContentToRoot="true" MakeFileLowerCase="false" UseCustomTopicFileExtension="false" PreventExternalUrls="false" EnableResponsiveOutput="false" IncludeGlossarySearchResults="true" ResultsPerPage="20">
+    <CatapultSkin Version="2" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="800" Height="600" Top="0" Left="0" Bottom="0" Right="0" Tabs="TOC" DefaultTab="TOC" UseBrowserDefaultSize="True" UseDefaultBrowserSetup="True" AutoSyncTOC="true" NavigationLinkBottom="false" EnableResponsiveOutput="true" Name="FMC - Schilling HD&#160;Online">
+        <Toolbar EnableCustomLayout="true" Buttons="Overview|Separator|Maintenance|Separator|Control_sys|Separator|Drawings_pl|Separator|Contact_us|Filler|Print|ExpandAll|RemoveHighlight|PreviousTopic|NextTopic">
+            <Script>function myOpen(el) {
+$('#mySub').css('visibility','hidden');
+$('#mySub').load("Topics/All-others/menu" + el + ".htm");
+$('#mySub').css('visibility','visible');
+x=$('#myMenu' + el).offset().left;
+y=$('#myMenu' + el).offset().top;
+$('#mySub').show().css({'top':y+22,'left':x+4});
+}
+
+
+function myClose() { $('#mySub').css('visibility','hidden'); }
+
+
+var timer1;
+function myTimer() { timer1 = setTimeout(function() { myClose() }, 100); }
+
+
+function myCancel() { clearTimeout(timer1); }
+
+
+$(document).ready(function() {
+
+$('head').append('&lt;!-- Standard iPhone --&gt;&lt;link rel="apple-touch-icon" sizes="144x144" href="Images/Icons/apple-touch-icon.png" /&gt;');
+   
+$("body").append("&lt;div id='mySub' class='menus'&gt;&lt;/div&gt;")
+
+$('button.overview-button').attr('id','myMenu1');
+$('button.maintenance-button').attr('id','myMenu2');
+$('button.control_sys-button').attr('id','myMenu3');
+$('button.drawings_pl-button').attr('id','myMenu4');
+$('button.contact_us-button').attr('id','myMenu5');   
+
+$('button.overview-button').html('');
+$('button.maintenance-button').html('');
+$('button.control_sys-button').html('');
+$('button.drawings_pl-button').html('');
+$('button.contact_us-button').html('');
+
+$('button.overview-button').css('color','red');
+$('button.maintenance-button').css('color','red');
+$('button.control_sys-button').css('color','red');
+$('button.drawings_pl-button').css('color','red');
+$('button.contact_us-button').css('color','red');
+
+$('button.overview-button').css('text-align','center');
+$('button.maintenance-button').css('text-align','center');
+$('button.control_sys-button').css('text-align','center');
+$('button.drawings_pl-button').css('text-align','center');
+$('button.contact_us-button').css('text-align','center');
+
+$('#myMenu1').bind('mouseover',function(){myOpen('1')});
+$('#myMenu2').bind('mouseover',function(){myOpen('2')});
+$('#myMenu3').bind('mouseover',function(){myOpen('3')});
+$('#myMenu4').bind('mouseover',function(){myOpen('4')});
+
+
+$('#mySub').bind('mouseover',function(){myCancel()});
+
+$('#mySub').bind('mouseout',function(){myTimer()});
+   
+
+$( "&lt;style&gt;.menus { width:200px; background-color: #f7f7f7; border:1px solid #c0c0c0; position:absolute; visibility:hidden; padding-left:4px; z-index:99; box-shadow:3px 6px 6px -3px #ccc; } &lt;/style&gt;" ).appendTo( 
+
+"head" )
+
+
+}
+);</Script>
+        </Toolbar>
+    </CatapultSkin>
+    <CatapultSkin Version="2" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="800" Height="600" Top="0" Left="0" Bottom="0" Right="0" Tabs="TOC,Community" DefaultTab="TOC" UseBrowserDefaultSize="True" UseDefaultBrowserSetup="True" AutoSyncTOC="true" Name="FMC - Schilling HD&#160;Online_ST">
+        <Toolbar EnableCustomLayout="true" Buttons="Overview|Separator|Maintenance|Separator|Control_sys|Separator|Drawings_pl|Separator|Contact_us|Filler|Print|ExpandAll|RemoveHighlight|PreviousTopic|NextTopic">
+            <Script>function myOpen(el) {
+$('#mySub').css('visibility','hidden');
+$('#mySub').load("Topics/All-others/menu" + el + ".htm");
+$('#mySub').css('visibility','visible');
+x=$('#myMenu' + el).offset().left;
+y=$('#myMenu' + el).offset().top;
+$('#mySub').show().css({'top':y+22,'left':x+4});
+}
+
+
+function myClose() { $('#mySub').css('visibility','hidden'); }
+
+
+var timer1;
+function myTimer() { timer1 = setTimeout(function() { myClose() }, 100); }
+
+
+function myCancel() { clearTimeout(timer1); }
+
+
+$(document).ready(function() {
+
+$('head').append('&lt;!-- Standard iPhone --&gt;&lt;link rel="apple-touch-icon" sizes="144x144" href="Iamges/Icons/apple-touch-icon.png" /&gt;');
+   
+$("body").append("&lt;div id='mySub' class='menus'&gt;&lt;/div&gt;")
+
+$('button.overview-button').attr('id','myMenu1');
+$('button.maintenance-button').attr('id','myMenu2');
+$('button.control_sys-button').attr('id','myMenu3');
+$('button.drawings_pl-button').attr('id','myMenu4');
+$('button.contact_us-button').attr('id','myMenu5');   
+
+$('button.overview-button').html('');
+$('button.maintenance-button').html('');
+$('button.control_sys-button').html('');
+$('button.drawings_pl-button').html('');
+$('button.contact_us-button').html('');
+
+$('button.overview-button').css('color','red');
+$('button.maintenance-button').css('color','red');
+$('button.control_sys-button').css('color','red');
+$('button.drawings_pl-button').css('color','red');
+$('button.contact_us-button').css('color','red');
+
+$('button.overview-button').css('text-align','center');
+$('button.maintenance-button').css('text-align','center');
+$('button.control_sys-button').css('text-align','center');
+$('button.drawings_pl-button').css('text-align','center');
+$('button.contact_us-button').css('text-align','center');
+
+$('#myMenu1').bind('mouseover',function(){myOpen('1')});
+$('#myMenu2').bind('mouseover',function(){myOpen('2')});
+$('#myMenu3').bind('mouseover',function(){myOpen('3')});
+$('#myMenu4').bind('mouseover',function(){myOpen('4')});
+
+
+$('#mySub').bind('mouseover',function(){myCancel()});
+
+$('#mySub').bind('mouseout',function(){myTimer()});
+   
+
+$( "&lt;style&gt;.menus { width:200px; background-color: #f7f7f7; border:1px solid #c0c0c0; position:absolute; visibility:hidden; padding-left:4px; z-index:99; box-shadow:3px 6px 6px -3px #ccc; } &lt;/style&gt;" ).appendTo( 
+
+"head" )
+
+
+}
+);</Script>
+        </Toolbar>
+    </CatapultSkin>
+    <CatapultSkin Version="2" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="800" Height="600" Top="0" Left="0" Bottom="0" Right="0" Tabs="TOC,Glossary" DefaultTab="TOC" UseBrowserDefaultSize="True" UseDefaultBrowserSetup="True" AutoSyncTOC="true" NavigationLinkBottom="true" CommentsInTopic="false" DisplayCommunitySearchResults="false" DisplayNotificationOptions="false" Title="FMC - Schilling Robotics" Name="FMC-Schilling_HTML5_Online">
+        <Toolbar EnableCustomLayout="true" Buttons="Contact_us|Filler|AboutHelp|Print|ExpandAll|RemoveHighlight|PreviousTopic|NextTopic">
+            <Script>function contactUs() {
+$('#searchPane').hide();
+$('#topic').show();
+window.open('Topics/ROV system hardware/rov_sys_overview_cust_service.htm', 'topic');
+}
+
+function aboutHelp() {
+$('#searchPane').hide();
+$('#topic').show();
+window.open('Topics/ROV system hardware/rov_system_help_using_digital_manual_head-only.htm', 'topic');
+}</Script>
+        </Toolbar>
+    </CatapultSkin>
+    <CatapultSkin Version="1" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="800" Height="600" Top="0" Left="0" Bottom="0" Right="0" Tabs="TOC,Index,Community" DefaultTab="TOC" UseBrowserDefaultSize="True" UseDefaultBrowserSetup="True" Name="HTML5" />
+    <CatapultSkin Version="1" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="800" Height="600" Top="0" Left="0" Bottom="0" Right="0" Tabs="TOC,Index,Community" DefaultTab="TOC" UseBrowserDefaultSize="True" UseDefaultBrowserSetup="True" Name="dark">
+        <Toolbar EnableCustomLayout="true" Buttons="MaintenanceService|Separator|Specs|Separator|Troubleshooting|Separator|Drawings|Filler|Print|ExpandAll|RemoveHighlight" />
+    </CatapultSkin>
+    <CatapultSkin Version="1" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="800" Height="600" Top="0" Left="0" Bottom="0" Right="0" Tabs="TOC,Index,Community" DefaultTab="TOC" UseBrowserDefaultSize="True" UseDefaultBrowserSetup="True" Name="rendered">
+        <Toolbar EnableCustomLayout="true" Buttons="MaintenanceService|Separator|Specs|Separator|Troubleshooting|Separator|Drawings|Separator|Contact Us|Filler|Print|ExpandAll|RemoveHighlight" />
+    </CatapultSkin>
+    <CatapultSkin Version="1" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="800" Height="600" Top="0" Left="0" Bottom="0" Right="0" Tabs="TOC,Index,Community" DefaultTab="TOC" UseBrowserDefaultSize="True" UseDefaultBrowserSetup="True" Name="rendered_from_Scott">
+        <Toolbar EnableCustomLayout="true" Buttons="MaintenanceService|Separator|Specs|Separator|Troubleshooting|Separator|Drawings|Filler|Print|ExpandAll|RemoveHighlight" />
+    </CatapultSkin>
+    <CatapultSkin Version="1" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="800" Height="600" Top="0" Left="0" Bottom="0" Right="0" Tabs="TOC,Index" DefaultTab="TOC" UseBrowserDefaultSize="True" UseDefaultBrowserSetup="True" Title="FMC - Schilling HD Online" AutoSyncTOC="true" Name="TEST FMC - Schilling HD&#160;Online">
+        <Toolbar EnableCustomLayout="true" Buttons="Specifications|Separator|Maintenance|Separator|Control_sys|Separator|Drawings_pl|Separator|Contact_us|Filler|Print|ExpandAll|RemoveHighlight|Separator|NextTopic|PreviousTopic">
+            <Script>function myOpen(el) {
+  
+
+
+$('#mySub').load("Content/menu" + el + ".htm");
+  
+
+
+$('#mySub').css('visibility','visible');
+  
+
+
+x=$('#myMenu' + el).offset().left;
+  
+
+
+y=$('#myMenu' + el).offset().top;
+  
+
+
+$('#mySub').show().css({'top':y+22,'left':x+4});
+}
+
+
+
+
+
+
+
+function myClose() {
+ $('#mySub').css('visibility','hidden');
+ }
+
+
+
+var timer1;
+
+
+
+function myTimer() { 
+timer1 = setTimeout(function() { myClose(); }, 100)
+ }
+
+
+
+
+
+
+
+function myCancel() { clearTimeout(timer1) }
+
+$(document).ready(function() {
+   
+
+
+$("body").append("&lt;div id='mySub' class='menus'&gt;&lt;/div&gt;")
+$('button.specifications-button').attr('id','myMenu1');
+   
+
+
+$('button.maintenance-button').attr('id','myMenu2');
+   
+
+
+$('button.control_sys-button').attr('id','myMenu3');
+   
+
+
+$('button.drawings_pl-button').attr('id','myMenu4');
+
+
+
+$('button.contuct_us-button').attr('id','myMenu5');   
+
+
+
+
+$('button.specifications-button').html('Specifications');
+   
+
+
+$('button.maintenance-button').html('Maintenance');
+   
+
+
+$('button.control_sys-button').html('Control System');
+   
+
+
+$('button.drawings_pl-button').html('Drawings &amp; Parts List');
+   
+
+
+$('button.contact_us-button').html('Contact Us');
+
+   
+
+
+
+
+$('button.specifications-button').css('width','140px');
+   
+
+$('button.maintenance-button').css('width','140px');
+   
+
+
+$('button.control_sys-button').css('width','140px');
+   
+
+
+$('button.drawings_pl-button').css('width','140px');
+   
+
+
+$('button.contact_us-button').css('width','140px');
+
+   
+
+
+
+
+$('button.specifications-button').css('color','red');
+   
+
+
+$('button.maintenance-button').css('color','red');
+   
+
+
+$('button.control_sys-button').css('color','red');
+   
+
+
+$('button.drawings_pl-button').css('color','red');
+   
+
+
+$('button.contact_us-button').css('color','red');
+
+   
+
+
+
+
+$('button.specifications-button').css('text-align','center');
+   
+
+
+$('button.maintenance-button').css('text-align','center');
+   
+
+
+$('button.control_sys-button').css('text-align','center');
+   
+
+
+$('button.drawings_pl-button').css('text-align','center');
+   
+
+
+$('button.contact_us-button').css('text-align','center');
+
+   
+
+
+
+
+
+$('#myMenu1').bind('mouseover',function(){myOpen('1')});
+   
+
+
+$('#myMenu2').bind('mouseover',function(){myOpen('2')});
+   
+
+
+$('#myMenu3').bind('mouseover',function(){myOpen('3')});
+   
+
+
+$('#myMenu4').bind('mouseover',function(){myOpen('4')});
+   
+
+
+$('#myMenu5').bind('mouseover',function(){myOpen('5')});
+   
+
+
+$('#myMenu1').bind('mouseout',function(){myTimer()});
+   
+
+
+$('#myMenu2').bind('mouseout',function(){myTimer()});
+   
+
+
+$('#myMenu3').bind('mouseout',function(){myTimer()});
+   
+
+
+$('#myMenu4').bind('mouseout',function(){myTimer()});
+   
+
+
+$('#myMenu5').bind('mouseout',function(){myTimer()});
+
+   
+$('#mySub').bind('mouseover',function(){myCancel()});
+   
+
+
+$('#mySub').bind('mouseout',function(){myTimer()});
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+$( "&lt;style&gt;.menus { width:200px; position: absolute; visibility: hidden; padding-left: 4px; } &lt;/style&gt;" ).appendTo( 
+
+"head" )
+
+
+
+}
+);
+
+
+
+</Script>
+        </Toolbar>
+        <WebHelpOptions HideNavigationOnStartup="false" />
+    </CatapultSkin>
+    <CatapultSkin Version="1" SkinType="WebHelp2" Comment="HTML5 skin" Anchors="Width,Height" Width="800" Height="600" Top="0" Left="0" Bottom="0" Right="0" Tabs="TOC,Index,Community" DefaultTab="TOC" UseBrowserDefaultSize="True" UseDefaultBrowserSetup="True" Name="white">
+        <Toolbar EnableCustomLayout="true" Buttons="MaintenanceService|Separator|Specs|Separator|Troubleshooting|Separator|Drawings|Filler|Print|ExpandAll|RemoveHighlight" />
+    </CatapultSkin>
+</WebHelpSystem>
